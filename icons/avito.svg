@@ -1,7 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <rect width="48" height="48" rx="10" fill="#00A775"/>
-  <circle cx="17" cy="21" r="7.5" fill="#FF6600"/>
-  <circle cx="31" cy="21" r="7.5" fill="white"/>
-  <circle cx="31" cy="21" r="4" fill="#FF6600"/>
-  <rect x="26" y="25" width="5" height="11" rx="2.5" fill="white"/>
+  <!-- Top-left: blue -->
+  <circle cx="14" cy="14" r="10" fill="#4D9FEC"/>
+  <!-- Top-right: coral/red -->
+  <circle cx="34" cy="14" r="8" fill="#E05C5C"/>
+  <!-- Bottom-left: purple -->
+  <circle cx="14" cy="36" r="6" fill="#9B6FD4"/>
+  <!-- Bottom-right: green (largest) -->
+  <circle cx="34" cy="34" r="11" fill="#8DC63F"/>
 </svg>
