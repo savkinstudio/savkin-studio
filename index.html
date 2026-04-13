@@ -111,17 +111,23 @@ nav{
 }
 .pain-inner{max-width:1200px;margin:0 auto;text-align:center}
 .label{
-  display:inline-block;font-size:12px;font-weight:700;letter-spacing:2px;
+  display:block;font-size:12px;font-weight:700;letter-spacing:2px;
   text-transform:uppercase;color:var(--teal);margin-bottom:20px;
+  text-align:center;
+}
+.label span{
   background:rgba(76,205,205,0.1);padding:6px 16px;border-radius:100px;
+  display:inline-block;
 }
 .section-title{
   font-size:clamp(36px,4.5vw,64px);font-weight:700;color:var(--text-dark);
   letter-spacing:-2px;line-height:1.05;margin-bottom:16px;
+  text-align:center;
 }
 .section-sub{
   font-size:18px;color:var(--text-muted);max-width:520px;
   line-height:1.5;margin-bottom:64px;margin-left:auto;margin-right:auto;
+  text-align:center;
 }
 .pain-grid{
   display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;
@@ -389,7 +395,7 @@ footer a:hover{color:var(--teal)}
 <!-- PAIN -->
 <section class="pain-section">
   <div class="pain-inner">
-    <div class="label">Проблема</div>
+    <div class="label"><span>Проблема</span></div>
     <h2 class="section-title">Почему 9 из 10 заявок<br>не доходят до сделки?</h2>
     <p class="section-sub">Клиент не получил ответ за 5 минут — ушёл к конкуренту. Это происходит каждый день.</p>
     <div class="pain-grid">
@@ -420,7 +426,7 @@ footer a:hover{color:var(--teal)}
 <!-- HOW -->
 <section class="how-section" id="how">
   <div class="how-inner">
-    <div class="label">Решение</div>
+    <div class="label"><span>Решение</span></div>
     <h2 class="section-title" style="color:var(--white)">Дайте вашему бизнесу<br><span style="color:var(--teal)">супер-силу</span></h2>
     <p class="section-sub" style="color:rgba(255,255,255,0.4)">Один AI — все каналы. Работает пока вы спите, едите и отдыхаете.</p>
     <div class="how-steps">
@@ -451,7 +457,7 @@ footer a:hover{color:var(--teal)}
 <!-- PLATFORMS -->
 <section class="platforms-section" id="platforms">
   <div class="platforms-inner">
-    <div class="label">Платформы</div>
+    <div class="label"><span>Платформы</span></div>
     <h2 class="section-title" style="color:var(--white)">Работает там,<br>где ваши клиенты</h2>
     <p class="section-sub" style="color:rgba(255,255,255,0.4)">Настраиваем под нужные вам каналы. Один AI — все площадки.</p>
     <div class="platforms-grid">
@@ -492,7 +498,7 @@ footer a:hover{color:var(--teal)}
 <!-- PRODUCTS -->
 <section class="products-section" id="products">
   <div class="products-inner">
-    <div class="label">Тарифы</div>
+    <div class="label"><span>Тарифы</span></div>
     <h2 class="section-title">Наши продукты.<br>Готовые AI-решения.</h2>
     <div class="products-grid">
       <div class="product-card">
@@ -545,7 +551,7 @@ footer a:hover{color:var(--teal)}
 <!-- FAQ -->
 <section class="faq-section" id="faq">
   <div class="faq-inner">
-    <div class="label">FAQ</div>
+    <div class="label"><span>FAQ</span></div>
     <h2 class="section-title" style="color:var(--white)">Ответы на вопросы,<br>которые вы стеснялись задать</h2>
     <div class="faq-list">
       <div class="faq-item">
